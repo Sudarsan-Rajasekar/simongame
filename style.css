@@ -1,0 +1,57 @@
+body{
+    background-color: #ECEBDE;
+    /* color: rgb(255, 255, 255); */
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    
+}
+ 
+#level-title{
+    font-size: 3rem;
+    margin: 5%;
+    color: #3f3c0d;
+}
+
+.container{
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.btn{
+    margin: 25px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    /* border: 1px solid black; */
+    border-radius: 20%;
+}
+
+.game-over{
+    background-color: rgb(128, 55, 55);
+    opacity: 0.8;
+}
+.red{
+    background-color: #ED3F27;
+    /* opacity: 0.8; */
+}
+.green{
+    background-color: #59AC77;
+    /* opacity: 0.8; */
+}
+.blue{
+    background-color: #6D94C5;
+    /* opacity: 0.8; */
+}
+.yellow{
+    background-color: #FCB53B;
+    /* opacity: 0.8; */
+}
+.pressed{
+    box-shadow: 0 0 2px white;
+    background-color: grey;
+}
+.flash {
+  background-color: #fffefe !important; /* flash to white */
+  box-shadow: 0 0 20px black;
+}
