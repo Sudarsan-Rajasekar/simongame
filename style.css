@@ -29,7 +29,7 @@ body{
 
 .game-over{
     background-color: rgb(128, 55, 55);
-    opacity: 0.8;
+    transition: background-color 0.2s;
 }
 .red{
     background-color: #ED3F27;
@@ -49,9 +49,20 @@ body{
 }
 .pressed{
     box-shadow: 0 0 2px white;
-    background-color: grey;
+    background-color: grey; 
 }
 .flash {
   background-color: #fffefe !important; /* flash to white */
   box-shadow: 0 0 20px black;
+}
+
+ /* Override bootstrap hover */
+.green:hover { background-color: #3A6F43 !important; }
+.red:hover { background-color: #660B05 !important; }
+.yellow:hover { background-color: #FF9F00 !important; }
+.blue:hover { background-color: #3C467B !important; }
+
+.btn-disabled {
+    pointer-events: none; /* makes it unclickable */
+    opacity: 0.75;         /* visually looks disabled */
 }
